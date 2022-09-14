@@ -1,0 +1,19 @@
+top bar #292424
+Top Button #383131
+button Hover #4d4444
+hr bg #0b0a0a 
+heading color #fdfdfd
+font color #cecece
+arrow bg #383131
+green color txt #10fd45
+blue color #0b92af
+red color #e61010;
+blue color #107085
+grey color #a3a8a9;
+arrow color #fefefe;
+
+help icon far fa-question-circle
+gear icon <i class="fa fa-gear-circle"></i>
+vacation button bg :#10f6f6
+grey button bg : #a0a5a6; 
+request bttn bg #0cb932
