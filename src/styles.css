@@ -16,8 +16,7 @@ ul:hover{background-color: none;}
 .screenNav {
   display: none;
 }
-.searchBar{width: 80%;}
-.searchBar:active,.searchBar:focus{outline: none; color: #fff; width: 80%;}
+
 
 .bgGray {
   background-color: #292424;
@@ -46,9 +45,8 @@ ul:hover{background-color: none;}
 }
 
 #calendar.bCal li{background-color: #292424;
-  border-right: 1px solid #292424;
-  border-bottom: 1px solid #292424;
-  border-left:1px solid #292424;
+  border: 1px solid #292424;
+ 
 }
 
 #calendar li.day {
@@ -135,7 +133,7 @@ hr {
   border-top: 1px solid #0b0a0a;
 }
 
-button.hamburger{background: none; border: none;}
+
 
 .BigCalendar #calendar {
     font-size: 1.5rem;

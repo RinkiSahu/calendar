@@ -1,5 +1,43 @@
 
+.bgGray ul {
+    display: flex;
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+.bgGray {
+    margin-bottom: 30px;
+}
+
 .bgGray ul li {
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 0.5em;
+    background-color: #383131;
+    line-height: 3rem;
+    font-size: .8rem;
+}
+
+.bgGray ul li:hover {
+    background-color: #4d4444;
+}
+
+.bgGray h1 {
+    font-size: 1.5rem;
+    padding: 0 1em;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+.bgGray h3 {
+    line-height: 2.8rem;
+    margin: 0.6em 0em 0.7em 1em;
+    background: #4d4444;
+    padding: 0 1.5rem;
+    font-size: .8rem;
+}.bgGray ul li {
     list-style: none;
     color: #fff;
     text-decoration: none;
@@ -50,4 +88,54 @@ h4 {
     color: #fff;
     width: 80%;
 }
+button.hamburger {
+    background: none;
+    border: none;
+}
 
+.searchBar {
+    width: 80%;
+}
+
+.searchBar:active,
+.searchBar:focus {
+    outline: none;
+    color: #fff;
+    width: 80%;
+}
+
+.rightrow {
+    position: relative;
+}
+
+.bgGray ul.rightrow {
+    position: absolute;
+    right: 1em;
+}
+
+ul.rightrow li {
+    background: none !important;
+
+
+}
+
+ul.rightrow li a {
+    text-decoration: none;
+
+}
+
+.rightrow ul li:hover {
+    background: none;
+}
+.dateborder {
+    border: 1px solid #4d4444;
+    padding: .1em;
+    border-radius: .2em;
+    border-top-left-radius: 0;
+    margin-left: 1em;
+}
+
+.searchBar {
+    background: none;
+    border: none;
+}
